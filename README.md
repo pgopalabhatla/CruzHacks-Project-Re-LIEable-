@@ -19,3 +19,4 @@ Make sure you have python 3 installed
 4. type ls and enter
 5. type python3 -m http.server
 6. then open in your desired environment.
+7. then run the code
