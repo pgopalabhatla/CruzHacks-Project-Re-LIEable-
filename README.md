@@ -7,4 +7,7 @@ then open reliewebsite folder in terminal
 type: npm run dev to start local server at localhost:3000
 terminal shall now give you a link to look at website and navigate
 
-##Credits
+Credits:
+TensorFlow: Tensor flow is an end-to-end open source platform with comprehensive tools and libraries that lets developers easily build machine learning powered applications
+
+
