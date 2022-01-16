@@ -16,8 +16,8 @@ const renderer = new THREE.WebGLRenderer({
 
 renderer.setPixelRatio( window.devicePixelRatio );
 renderer.setSize( window.innerWidth, window.innerHeight );
-camera.position.setZ(50);
-camera.position.setX(20);
+camera.position.setZ(10);
+camera.position.setX(10);
 
 renderer.render( scene, camera );
 
@@ -32,8 +32,7 @@ const controls = new OrbitControls(camera, renderer.domElement);
 function moveCamera() {
 
 const t = document.body.getBoundingClientRect().top;
-camera.position.z = t * 0.02;
-camera.position.z = t * -0.02
+camera.position.X = t * 0.2;
 }
 
 document.body.onscroll = moveCamera
